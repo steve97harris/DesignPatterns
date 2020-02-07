@@ -1,0 +1,3 @@
+/Users/Steve/Documents/GitHub/DesignPatterns/DesignPatterns/DesignPatterns/obj/Debug/netcoreapp3.1/DesignPatterns.csprojAssemblyReference.cache
+/Users/Steve/Documents/GitHub/DesignPatterns/DesignPatterns/DesignPatterns/obj/Debug/netcoreapp3.1/DesignPatterns.AssemblyInfoInputs.cache
+/Users/Steve/Documents/GitHub/DesignPatterns/DesignPatterns/DesignPatterns/obj/Debug/netcoreapp3.1/DesignPatterns.AssemblyInfo.cs
