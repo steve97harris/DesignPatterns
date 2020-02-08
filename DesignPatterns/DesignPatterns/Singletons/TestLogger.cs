@@ -6,7 +6,7 @@ namespace DesignPatterns.singletons
 {
     class TestLogger        // Logger, used to create a customized error log file or log specific events.
     {
-        static void Main()
+        static void Main()      // Static, relates to the type itself, rather than an instance of the type. 
         {
             // Logger object1 = new Logger();
             // Logger object2 = new Logger();
