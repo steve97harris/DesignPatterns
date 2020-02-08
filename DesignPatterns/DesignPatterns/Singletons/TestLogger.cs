@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPatterns.singletons
 {
-    class LoggerTest        // Logger, used to create a customized error log file or log specific events.
+    class TestLogger        // Logger, used to create a customized error log file or log specific events.
     {
         static void Main()
         {
