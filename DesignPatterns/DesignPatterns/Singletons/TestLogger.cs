@@ -11,8 +11,10 @@ namespace DesignPatterns.singletons
             // Logger object1 = new Logger();
             // Logger object2 = new Logger();
             Console.WriteLine("---Singleton---");
-            Logger object1 = Logger.GetInstance();
-            Logger object2 = Logger.GetInstance();
+            // Logger object1 = Logger.GetInstance();
+            // Logger object2 = Logger.GetInstance();
+            Logger object1 = Logger.Instance;
+            Logger object2 = Logger.Instance;
             Console.WriteLine(object1.GetHashCode());
             Console.WriteLine(object2.GetHashCode());
 
