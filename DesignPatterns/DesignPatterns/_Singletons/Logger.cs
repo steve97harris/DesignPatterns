@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.singletons
+namespace DesignPatterns._singletons
 {
     public class Logger
     {

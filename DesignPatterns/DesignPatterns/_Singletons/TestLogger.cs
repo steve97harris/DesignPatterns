@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.singletons
+namespace DesignPatterns._singletons
 {
     class TestLogger        // Logger, used to create a customized error log file or log specific events.
     {
