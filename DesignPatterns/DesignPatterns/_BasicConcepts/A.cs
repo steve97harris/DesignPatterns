@@ -26,7 +26,7 @@ namespace DesignPatterns._basicconcepts
 
     class Test
     {
-        static void Main()
+        static void MainOLD()
         {
             // Console.WriteLine("A object");
             // A aobject = new A();
