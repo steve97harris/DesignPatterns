@@ -6,11 +6,11 @@ namespace DesignPatterns._basicconcepts
 {
     class Staff
     {
-        public int staffID;
-        public string staffName;
-        public double salary;
-        public int grade;
-        public string company;
+        private int staffID;
+        private string staffName;
+        public double salary {get; set;} 
+        public int grade {get; set;}
+        public string company = "IBM";
 
         public Staff(int staffID, string staffName)
         {
@@ -23,9 +23,12 @@ namespace DesignPatterns._basicconcepts
     { 
         static void Main()
         {
-            Staff object = new Staff();
-            object.staffID = 100;
-            object.staffName = "Jeff";
+            Staff objectA = new Staff(100,"Jeff");
+            // objectA.staffID = 100;
+            // objectA.staffName = "Jeff";
+            objectA.salary = 200000;
+
+            Staff objectB = new Staff(200,"Steve");
         }
     }
 }

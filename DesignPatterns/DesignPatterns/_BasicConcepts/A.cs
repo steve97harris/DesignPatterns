@@ -4,17 +4,18 @@ using System.Text;
 
 namespace DesignPatterns._basicconcepts
 {
-    class A
+    interface IA
     {
-        public virtual void MethodA()
+        void MethodA()
         {
             Console.WriteLine("A - MA");
         }
+        void MethodB();
     }
 
-    class B : A
+    class B : IA
     {
-        public override void MethodA()
+        public void MethodA()
         {
             Console.WriteLine("B - MA");
         }
@@ -41,9 +42,10 @@ namespace DesignPatterns._basicconcepts
             // Superclass object = new Subclass();
             int x = 23;
 
-            A object1 = new B();
+            IA object1;
+            object1 = new B();
             object1.MethodA();
-            (object1 as B).MethodB();
+            object1.MethodB();
 
             // B object2 = new A(); (Can't do this).
         }
