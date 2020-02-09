@@ -28,9 +28,9 @@ namespace DesignPatterns._basicconcepts
     {
         static void Main()
         {
-            Console.WriteLine("A object");
-            A aobject = new A();
-            aobject.MethodA();
+            // Console.WriteLine("A object");
+            // A aobject = new A();
+            // aobject.MethodA();
 
             Console.WriteLine("B object");
             B bobject = new B();
@@ -39,9 +39,11 @@ namespace DesignPatterns._basicconcepts
             
             Console.WriteLine("A or B?");
             // Superclass object = new Subclass();
-            int x = 10;
+            int x = 23;
+
             A object1 = new B();
             object1.MethodA();
+            (object1 as B).MethodB();
 
             // B object2 = new A(); (Can't do this).
         }
